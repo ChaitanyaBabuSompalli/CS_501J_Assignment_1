@@ -1,0 +1,30 @@
+2)
+ Intermediate: Trace the Bubble Sort. Provided the unsorted array ` [10, 17, 7, 9, 55] ` and trace the bubble sort algorithm step by step, showing the changes in the array after each pass.
+Sol:-
+Given array is [10, 17, 7, 9, 55].
+Let's apply the Bubble Sort algorithm.
+Now, the index of the given array starts from 0 to 4 because the size of the array is 5.
+Step 1:
+> Compare 10 and 17, no swap: [10, 17, 7, 9, 55]
+> Compare 17 and 7, swap because 17 is greater than 7: [10, 7, 17, 9, 55]
+> Compare 17 and 9, swap because 17 is greater than 9: [10, 7, 9, 17, 55]
+> Compare 17 and 55, no swap: [10, 7, 9, 17, 55]
+After one loop, now the array is [10, 7, 9, 17, 55]
+Step 2:
+> Compare 10 and 7, swap because 10 is greater than 7: [7, 10, 9, 17, 55]
+> Compare 10 and 9, swap because 10 is greater than 9: [7, 9, 10, 17, 55]
+> Compare 17 and 55, no swap: [7, 9, 10, 17, 55]
+After the second loop, the given array is [7, 9, 10, 17, 55]
+Step 3:
+> Compare 7 and 9, no swap: [7, 9, 10, 17, 55]
+> Compare 9 and 10, no swap: [7, 9, 10, 17, 55]
+> Compare 17 and 55, no swap: [7, 9, 10, 17, 55]
+After again looping, the given array remains [7, 9, 10, 17, 55]
+Step 4:
+> Compare 7 and 9, no swap: [7, 9, 10, 17, 55]
+> Compare 9 and 10, no swap: [7, 9, 10, 17, 55]
+> Compare 10 and 17, no swap: [7, 9, 10, 17, 55]
+> Compare 17 and 55, no swap: [7, 9, 10, 17, 55]
+No swaps in the fourth loop.
+
+Therefore, after applying the Bubble Sort algorithm, the array remains [7, 9, 10, 17, 55].
